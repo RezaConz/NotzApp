@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16256698228",
+    "project_id": "note-app-firestore-8e626",
+    "storage_bucket": "note-app-firestore-8e626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16256698228:android:d11c8b9568272220814e21",
+        "android_client_info": {
+          "package_name": "com.example.NoteApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARg3g0iXcAkmXwQSmCOlppAO9fP3J1nco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
