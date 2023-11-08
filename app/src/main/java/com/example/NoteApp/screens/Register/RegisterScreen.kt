@@ -136,7 +136,7 @@ fun RegisterScreen(
             horizontalArrangement = Arrangement.Center,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(text = "Already have an Account?")
+            Text(text = "Sudah punya akun?")
             Spacer(modifier = Modifier.size(8.dp))
             TextButton(onClick = { onNavToLoginPage.invoke() }) {
                 Text(text = "Sign In",color = Purple40)
