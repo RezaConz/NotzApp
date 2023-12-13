@@ -8,10 +8,10 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.NoteApp.screens.add.AddNoteViewModel
-import com.example.NoteApp.screens.home.HomeViewModel
 import com.example.NoteApp.screens.Login.LoginViewModel
 import com.example.NoteApp.screens.Register.RegisterViewModel
+import com.example.NoteApp.screens.add.AddNoteViewModel
+import com.example.NoteApp.screens.home.HomeViewModel
 import com.example.NoteApp.ui.theme.NotesTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,11 +19,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val loginViewModel = viewModel(modelClass = LoginViewModel::class.java)
-            val homeViewModel = viewModel(modelClass = HomeViewModel::class.java)
+            val homeViewModel = viewModel( modelClass = HomeViewModel::class.java)
             val addNoteViewModel = viewModel(modelClass = AddNoteViewModel::class.java)
             val registerViewModel = viewModel(modelClass = RegisterViewModel::class.java)
             NotesTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background) {
                     Navigation(
